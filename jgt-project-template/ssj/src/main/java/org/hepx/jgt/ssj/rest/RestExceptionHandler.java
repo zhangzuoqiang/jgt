@@ -1,9 +1,5 @@
 package org.hepx.jgt.ssj.rest;
 
-import java.util.Map;
-
-import javax.validation.ConstraintViolationException;
-
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -15,6 +11,10 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 import org.springside.modules.beanvalidator.BeanValidators;
 import org.springside.modules.mapper.JsonMapper;
 import org.springside.modules.web.MediaTypes;
+
+import java.util.Map;
+
+import javax.validation.ConstraintViolationException;
 
 /**
  * 自定义ExceptionHandler，专门处理Restful异常.
